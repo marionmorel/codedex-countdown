@@ -15,7 +15,7 @@ if today == next_birthday:
 else:
     print(f'My next birthday is {days_away.days} days away!')
 
-# Calculate how many days it has been since you were born
+# Calculate how many days, months and years it has been since you were born
 birth_date = datetime.date(1997, 9, 10)
 
 days_since = today - birth_date
